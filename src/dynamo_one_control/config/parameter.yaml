@@ -1,0 +1,25 @@
+common_param: &shared
+  L: 0.433
+  W: 0.12
+  H: 0.05
+  L1: 0.087
+  L2: 0.25
+  L3: 0.25
+  m : 20
+  m_hip : 0.03
+  m_thigh : 0.143
+  m_calf : 0.1
+  Ixx : 0.25
+  Iyy : 1.05
+  Izz : 1.05
+  Izz_hip : 0.01
+  Izz_thigh : 0.01
+  Izz_calf : 0.01
+  num_legs: 4
+
+leg_controller:
+  ros__parameters:
+    <<: *shared
+
+
+

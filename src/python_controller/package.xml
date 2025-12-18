@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>python_controller</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="yin@todo.todo">yin</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- ROS 2 dependencies -->
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>joy</depend>
+  <depend>trajectory_msgs</depend>
+  <depend>control_msgs</depend>  <!-- Optional: For any control-specific messages -->
+  
+  <!-- ROS 2 dependencies -->
+  <depend>ros2_control</depend>  <!-- Ensure the robot uses ros2_control for joint control -->
+  <depend>ros2_controllers</depend>  <!-- Include controllers such as joint_trajectory_controller -->
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <depend>dynamo_one_interfaces</depend>
+  <depend>rcl_interfaces</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

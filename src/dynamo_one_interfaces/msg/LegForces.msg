@@ -1,0 +1,12 @@
+float32 fl_x
+float32 fl_y
+float32 fl_z
+float32 fr_x
+float32 fr_y
+float32 fr_z
+float32 rl_x
+float32 rl_y
+float32 rl_z
+float32 rr_x
+float32 rr_y
+float32 rr_z

@@ -1,0 +1,73 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 1000  # Hz
+    use_sim_time: true  # Use Gazebo simulation time
+    # Define the available controllers
+    forward_position_controller:
+      type: forward_command_controller/ForwardCommandController
+
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    imu_sensor_broadcaster:
+      type: imu_sensor_broadcaster/IMUSensorBroadcaster
+
+    
+imu_sensor_broadcaster:
+  ros__parameters:
+    sensor_name: "imu_sensor"
+    frame_id: "imu_link"
+
+forward_position_controller:
+  ros__parameters:
+    joints:
+      - FL_hip_joint
+      - FL_thigh_joint
+      - FL_calf_joint
+      - FR_hip_joint
+      - FR_thigh_joint
+      - FR_calf_joint
+      - RR_hip_joint
+      - RR_thigh_joint
+      - RR_calf_joint
+      - RL_hip_joint
+      - RL_thigh_joint
+      - RL_calf_joint
+      
+    # state_publish_rate: 50  # Hz
+    interface_name: position
+    command_interfaces:
+      - position
+
+    state_interfaces:
+      - position
+      - velocity
+      - effort
+    
+    initial_positions:  # Define initial positions for each joint
+        FR_hip_joint: 0.0
+        FR_thigh_joint: 1.4
+        FR_calf_joint: -2.0
+        FL_hip_joint: 0.0
+        FL_thigh_joint: 1.4
+        FL_calf_joint: -2.0
+        RR_hip_joint: 0.0
+        RR_thigh_joint: 1.4
+        RR_calf_joint: -2.0
+        RL_hip_joint: 0.0
+        RL_thigh_joint: 1.4
+        RL_calf_joint: -2.0
+
+    gains:
+      FR_hip_joint: {p: 10.0, i: 0.01, d: 1.0}
+      FR_thigh_joint: {p: 10.0, i: 0.01, d: 1.0}
+      FR_calf_joint: {p: 50.0, i: 0.01, d: 1.0}
+      FL_hip_joint: {p: 10.0, i: 0.01, d: 1.0}
+      FL_thigh_joint: {p: 10.0, i: 0.01, d: 1.0}
+      FL_calf_joint: {p: 50.0, i: 0.01, d: 1.0}
+      RR_hip_joint: {p: 10.0, i: 0.01, d: 1.0}
+      RR_thigh_joint: {p: 10.0, i: 0.01, d: 1.0}
+      RR_calf_joint: {p: 50.0, i: 0.01, d: 1.0}
+      RL_hip_joint: {p: 10.0, i: 0.01, d: 1.0}
+      RL_thigh_joint: {p: 10.0, i: 0.01, d: 1.0}
+      RL_calf_joint: {p: 50.0, i: 0.01, d: 1.0}

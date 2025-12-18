@@ -1,0 +1,15 @@
+# ROS2
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Large meshes (we can add Git LFS later)
+src/**/*.dae

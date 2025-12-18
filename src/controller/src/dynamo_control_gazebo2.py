@@ -1,0 +1,1 @@
+from InverseKinematic.Invereskinematic1 import QuadrupedModel

@@ -9,7 +9,6 @@
   <img src="https://img.shields.io/badge/Gazebo-Fortress-orange" />
   <img src="https://img.shields.io/badge/Python-3.10+-green?logo=python" />
   <img src="https://img.shields.io/badge/Status-Simulation-yellow" />
-  <img src="https://img.shields.io/badge/License-MIT-lightgrey" />
 </p>
 
 ---
@@ -238,7 +237,7 @@ dynamo_one/
 ### 1. Clone the Repository
 
 ```bash
-mkdir -p ~/Dynamo_one_ws/
+mkdir -p ~/Dynamo_one_ws/src
 cd ~/Dynamo_one_ws/src
 git clone https://github.com/<your-username>/dynamo_one.git
 ```
@@ -252,14 +251,14 @@ pip install numpy scipy matplotlib osqp
 ### 3. Install ROS2 Dependencies
 
 ```bash
-cd ~/ros2_ws
+cd ~/Dynamo_one_ws
 rosdep install --from-paths src --ignore-src -r -y
 ```
 
 ### 4. Build the Workspace
 
 ```bash
-cd ~/ros2_ws
+cd ~/Dynamo_one_ws
 colcon build --symlink-install
 source install/setup.bash
 ```
@@ -295,7 +294,7 @@ ros2 run dynamo_one_control dynamo_one_controlrviz.launch.py
 ros2 launch dynamo_one_description gazebo_position.launch.py 
 
 # Terminal 2: Run main gait & body controller
-ros2 run dynamo_one_control body_control.launch.py
+ros2 run dynamo_one_control dynamo_one_controlV2.launch.py
 ```
 
 ### Torque Control Mode
@@ -304,7 +303,8 @@ ros2 run dynamo_one_control body_control.launch.py
 # Terminal 1: Launch Gazebo with torque (effort) control
 ros2 launch dynamo_one_description gazebo_torque.launch.py
 
-# Then run Terminals 2, 3, 4 as above
+# Terminal 2: Run main gait & body controller
+ros2 run dynamo_one_control body_control.launch.py
 ```
 
 ---
@@ -347,7 +347,7 @@ ros2 launch dynamo_one_description gazebo_torque.launch.py
 - 🏫 Institute of Technology of Cambodia (ITC)
 - 🏢 Intern at **AI FARM CO., Ltd** (Robotics Factory)
 - 📧 *[your-email@example.com]*
-- 🔗 *[LinkedIn / GitHub profile link]*
+- 🔗 *[LinkedIn](https://www.linkedin.com/in/yin-chheanyun-a064ba287?utm_source=share_via&utm_content=profile&utm_medium=member_android)*
 
 **Advisor:** Mr. CHOU Koksal
 **Company Supervisor:** Mr. THAI Phanny — AI FARM CO., Ltd
@@ -361,12 +361,6 @@ Special thanks to:
 - **Dr. CHRIN Phok** : Head of Department of Electrical and Energy Engineering
 - **H.E. Mrs. HENG Sreysor** : Head of AI FARM CO., Ltd
 - All professors in the **GEE Department** at ITC
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ---
 

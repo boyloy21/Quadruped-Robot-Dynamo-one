@@ -1,7 +1,7 @@
 # 🤖 Dynamo One — Quadruped Robot Control System
 
 <p align="center">
-  <img src="docs/images/Dynamo_one.png" alt="Dynamo One" width="700"/>
+  <img src="docs/images/Dynamo_one.png" alt="Dynamo One" width="400"/>
 </p>
 
 <p align="center">

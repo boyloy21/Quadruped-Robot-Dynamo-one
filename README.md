@@ -1,7 +1,7 @@
 # 🤖 Dynamo One — Quadruped Robot Control System
 
 <p align="center">
-  <img src="docs/images/Dynamo_one.png" alt="Dynamo One" width="400"/>
+  <img src="docs/images/Dynamo_one.png" alt="Dynamo One" width="300"/>
 </p>
 
 <p align="center">
@@ -238,8 +238,8 @@ dynamo_one/
 ### 1. Clone the Repository
 
 ```bash
-mkdir -p ~/ros2_ws/src
-cd ~/ros2_ws/src
+mkdir -p ~/Dynamo_one_ws/
+cd ~/Dynamo_one_ws/src
 git clone https://github.com/<your-username>/dynamo_one.git
 ```
 
@@ -282,33 +282,27 @@ python3 scripts/mpc_pyplot_simulation.py
 
 ```bash
 # Terminal 1: Launch robot state publisher
-ros2 launch dynamo_one_description rviz2.launch.py
+ros2 launch dynamo_one_description rviz_control.launch.py
 
 # Terminal 2: Run gait controller
-ros2 run dynamo_one_control dynamo_one_control.py
+ros2 run dynamo_one_control dynamo_one_controlrviz.launch.py
 ```
 
 ### Stage 3 — Full Gazebo Simulation
 
 ```bash
 # Terminal 1: Launch Gazebo with position control
-ros2 launch dynamo_one_description gazebo.launch.py GAZEBO:=true CONTROL:=true
+ros2 launch dynamo_one_description gazebo_position.launch.py 
 
-# Terminal 2: Launch PS4 joystick
-ros2 run joy joy_node
-
-# Terminal 3: Run PS4 desired command node
-ros2 run dynamo_one_control PS4_controller.py
-
-# Terminal 4: Run main gait & body controller
-ros2 run dynamo_one_control dynamo_one_control.py
+# Terminal 2: Run main gait & body controller
+ros2 run dynamo_one_control body_control.launch.py
 ```
 
 ### Torque Control Mode
 
 ```bash
 # Terminal 1: Launch Gazebo with torque (effort) control
-ros2 launch dynamo_one_description gazebo.launch.py GAZEBO:=true CONTROL:=false
+ros2 launch dynamo_one_description gazebo_torque.launch.py
 
 # Then run Terminals 2, 3, 4 as above
 ```

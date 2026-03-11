@@ -239,7 +239,7 @@ dynamo_one/
 ```bash
 mkdir -p ~/Dynamo_one_ws/src
 cd ~/Dynamo_one_ws/src
-git clone https://github.com/<your-username>/dynamo_one.git
+git clone https://github.com/boyloy21/Quadruped-Robot-Dynamo-one.git
 ```
 
 ### 2. Install Python Dependencies

@@ -346,7 +346,7 @@ ros2 run dynamo_one_control body_control.launch.py
 - 🎓 Year 5, Electrical and Energy Engineering (Automation)
 - 🏫 Institute of Technology of Cambodia (ITC)
 - 🏢 Intern at **AI FARM CO., Ltd** (Robotics Factory)
-- 📧 *[your-email@example.com]*
+- 📧 *[yinchheanyun21@example.com]*
 - 🔗 *[LinkedIn](https://www.linkedin.com/in/yin-chheanyun-a064ba287?utm_source=share_via&utm_content=profile&utm_medium=member_android)*
 
 **Advisor:** Mr. CHOU Koksal

@@ -359,7 +359,7 @@ ros2 run dynamo_one_control body_control.launch.py
 Special thanks to:
 - **H.E. Prof. Dr. PO Kimtho** : Director General, ITC
 - **Dr. CHRIN Phok** : Head of Department of Electrical and Energy Engineering
-- **H.E. Mrs. HENG Sreysor** : Head of AI FARM CO., Ltd
+- **H.E. Mrs. HENG Sreysor** : Head of AI FARM ROBOTICS FACTORY
 - All professors in the **GEE Department** at ITC
 
 ---

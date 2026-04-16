@@ -343,14 +343,14 @@ ros2 run dynamo_one_control body_control.launch.py
 ## 👤 Author
 
 **YIN Chheanyun**
-- 🎓 Year 5, Electrical and Energy Engineering (Automation)
+- 🎓 Year 5, Electrical and Automation Engineering 
 - 🏫 Institute of Technology of Cambodia (ITC)
 - 🏢 Intern at **AI FARM ROBOTICS FACTORY** (Robotics Factory)
 - 📧 *[yinchheanyun21@example.com]*
 - 🔗 *[LinkedIn](https://www.linkedin.com/in/yin-chheanyun-a064ba287?utm_source=share_via&utm_content=profile&utm_medium=member_android)*
 
 **Advisor:** Mr. CHOU Koksal
-**Company Supervisor:** Mr. THAI Phanny — AI FARM CO., Ltd
+**Company Supervisor:** Mr. THAI Phanny — AI FARM ROBOTICS FACTORY
 
 ---
 

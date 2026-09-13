@@ -343,7 +343,7 @@ ros2 launch dynamo_one_description gazebo_torque.launch.py
 ## 👤 Author
 
 **YIN Chheanyun**
-- 🎓 Year 5, Electrical and Energy Engineering (Automation)
+- 🎓 Year 5, Electrical and Automation Engineering
 - 🏫 Institute of Technology of Cambodia (ITC)
 - 🏢 Intern at **AI FARM CO., Ltd** (Robotics Factory)
 - 📧 *[yinchheanyun21@gmail.com]*

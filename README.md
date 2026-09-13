@@ -346,8 +346,8 @@ ros2 launch dynamo_one_description gazebo_torque.launch.py
 - 🎓 Year 5, Electrical and Energy Engineering (Automation)
 - 🏫 Institute of Technology of Cambodia (ITC)
 - 🏢 Intern at **AI FARM CO., Ltd** (Robotics Factory)
-- 📧 *[your-email@example.com]*
-- 🔗 *[LinkedIn / GitHub profile link]*
+- 📧 *[yinchheanyun21@gmail.com]*
+- 🔗 *[https://www.linkedin.com/in/yin-chheanyun-a064ba287/]*
 
 **Advisor:** Mr. CHOU Koksal
 **Company Supervisor:** Mr. THAI Phanny — AI FARM CO., Ltd

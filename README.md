@@ -16,7 +16,7 @@
 
 ## 📖 Overview
 
-**Dynamo One** is a quadruped robot control system developed as part of a Year-5 Bachelor Thesis in **Electrical and Energy Engineering (Automation)** at the **Institute of Technology of Cambodia (ITC)**, in collaboration with **AI FARM Robotics Factory**.
+**Dynamo One** is a quadruped robot control system developed as part of a Year-5 Bachelor Thesis in **Electrical and Automation Engineering** at the **Institute of Technology of Cambodia (ITC)**, in collaboration with **AI FARM Robotics Factory**.
 
 The project focuses on the **simulation, modeling, and control** of a four-legged robot — ensuring stable body posture, rhythmic gait generation, and dynamic locomotion through advanced control strategies including **PID**, **P Controller**, and **Model Predictive Control (MPC)**.
 
